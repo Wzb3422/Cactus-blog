@@ -1,5 +1,5 @@
 ---
-title: for-mobile
+title: 移动端适配
 date: 2019-12-08 03:43:37
 tags: CSS
 ---
@@ -30,7 +30,7 @@ tags: CSS
 
 你能看见下图中被放大区域的像素块。
 
-![Pixel-example](http://assets.wzbspace.top/img/Pixel-example.png)
+![Pixel-example](https://assets.wzbspace.top/img/Pixel-example.png)
 
 ### 分辨率 Image resolution
 
@@ -42,19 +42,19 @@ tags: CSS
 
 也可以使用每英寸像素数及图像的高宽描述，如 `72 ppi & 8x6 inch`
 
-![Resolution_illustration](http://assets.wzbspace.top/img/Resolution_illustration.png)
+![Resolution_illustration](https://assets.wzbspace.top/img/Resolution_illustration.png)
 
 #### 显示分辨率
 
 对于屏幕，我们使用像素数量来衡量。如 `1920x1080`，这代表该屏幕水平方向上和竖直方向上分别有1920个和1080个像素。
 
-![2560px-Vector_Video_Standards8](http://assets.wzbspace.top/img/2560px-Vector_Video_Standards8.png)
+![2560px-Vector_Video_Standards8](https://assets.wzbspace.top/img/2560px-Vector_Video_Standards8.png)
 
 #### PPI
 
 Pixel Per Inch - 每英寸像素数。PPI 可以用来衡量显示器或者一张图片的质量。
 
-![iphones-compare](http://assets.wzbspace.top/img/20191109225342.png)
+![iphones-compare](https://assets.wzbspace.top/img/20191109225342.png)
 
 上图 iPhone 的对比中，我们看到了三款手机的 PPI 参数。
 

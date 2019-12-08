@@ -1,5 +1,5 @@
 ---
-title: CSS-centering
+title: CSS 居中大集合
 date: 2019-12-08 03:42:21
 tags: CSS
 ---
@@ -30,7 +30,7 @@ tags: CSS
 }
 ```
 
-![centering-inline-element](http://assets.wzbspace.top/img/css-centering-inline-words.png)
+![centering-inline-element](https://assets.wzbspace.top/img/css-centering-inline-words.png)
 
 > 这对 `inline` `inline-block` `inline-table` `inline-flex` etc. 都生效
 
@@ -48,13 +48,13 @@ tags: CSS
 }
 ```
 
-![css-centering-block-element](http://assets.wzbspace.top/img/css-centering-block-element.png)
+![css-centering-block-element](https://assets.wzbspace.top/img/css-centering-block-element.png)
 
 如果没有给定块级元素宽度？那它会充满整行，以至于不需要居中了... 🔨
 
 就像这样
 
-![full-witdh](http://assets.wzbspace.top/img/full-width-block-element.png)
+![full-witdh](https://assets.wzbspace.top/img/full-width-block-element.png)
 
 ### 如果有多个块级元素？
 
@@ -71,7 +71,7 @@ tags: CSS
 }
 ```
 
-![inline-blocks-centering](http://assets.wzbspace.top/img/inline-blocks-centering.png)
+![inline-blocks-centering](https://assets.wzbspace.top/img/inline-blocks-centering.png)
 
 + 使用 Flexbox
 
@@ -82,7 +82,7 @@ tags: CSS
 }
 ```
 
-![centering-blocks-in-flex](http://assets.wzbspace.top/img/centering-blocks-in-flex.png)
+![centering-blocks-in-flex](https://assets.wzbspace.top/img/centering-blocks-in-flex.png)
 
 ## 在竖直方向上的居中（Vertically Centering）
 
@@ -101,7 +101,7 @@ a {
 }
 ```
 
-![centering-links](http://assets.wzbspace.top/img/centerinig-links.png)
+![centering-links](https://assets.wzbspace.top/img/centerinig-links.png)
 
 
 + 还有一种方案是，将文字的行高值设置与其元素高度相同。
@@ -113,11 +113,11 @@ a {
 }
 ```
 
-![centering-a-line](http://assets.wzbspace.top/img/centering-a-line.png)
+![centering-a-line](https://assets.wzbspace.top/img/centering-a-line.png)
 
 仔细思考，如果文字的内容超过一行，或者是父级元素的大小在响应式变化的情况下变小导致文字需要换行，会出现这样的情况。
 
-![lines-wraps](http://assets.wzbspace.top/img/lines-wraps.png)
+![lines-wraps](https://assets.wzbspace.top/img/lines-wraps.png)
 
 解决这个问题，只需要设置文字不换行即可
 
@@ -129,7 +129,7 @@ a {
 }
 ```
 
-![lines-center-no-wrap](http://assets.wzbspace.top/img/lines-center-no-wrap.png)
+![lines-center-no-wrap](https://assets.wzbspace.top/img/lines-center-no-wrap.png)
 
 #### 有多行文字时
 
@@ -163,7 +163,7 @@ a {
 
 **以上效果相同，如下图。**
 
-![muti-lines-centering](http://assets.wzbspace.top/img/muti-lines-centering.png)
+![muti-lines-centering](https://assets.wzbspace.top/img/muti-lines-centering.png)
 
 
 ### 对于块级（block）元素
@@ -186,7 +186,7 @@ a {
 
 这里需要注意的是 `top` 属性的计算方法，可以参考 [CSS - top | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/top)。
 
-![centerring-position-block](http://assets.wzbspace.top/img/position-center-.png)
+![centerring-position-block](https://assets.wzbspace.top/img/position-center-.png)
 
 #### 不能确定块级元素的高度
 
@@ -221,7 +221,7 @@ main div {
 }
 ```
 
-![table-vertical-centering](http://assets.wzbspace.top/img/table-vertical-centering.png)
+![table-vertical-centering](https://assets.wzbspace.top/img/table-vertical-centering.png)
 
 可见，元素被撑大了。🔨
 
@@ -237,7 +237,7 @@ main div {
 }
 ```
 
-![flex-vertical-center](http://assets.wzbspace.top/img/felx-vertival-center.png)
+![flex-vertical-center](https://assets.wzbspace.top/img/felx-vertival-center.png)
 
 ## 水平和竖直方向上同时居中
 
@@ -264,7 +264,7 @@ main div {
 }
 ```
 
-![centering-positon-nagetive](http://assets.wzbspace.top/img/centering-positon-nagetive.png)
+![centering-positon-nagetive](https://assets.wzbspace.top/img/centering-positon-nagetive.png)
 
 这样进行居中的浏览器兼容性非常好。
 
@@ -285,7 +285,7 @@ main div {
 }
 ```
 
-![unknow-height-width-centering](http://assets.wzbspace.top/img/unknow-height-width-centering.png)
+![unknow-height-width-centering](https://assets.wzbspace.top/img/unknow-height-width-centering.png)
 
 ### Flexbox
 
@@ -299,7 +299,7 @@ main div {
 }
 ```
 
-![flex-centerring](http://assets.wzbspace.top/img/flex-centerring.png)
+![flex-centerring](https://assets.wzbspace.top/img/flex-centerring.png)
 
 ### Gird
 
@@ -314,7 +314,7 @@ main div {
 }
 ```
 
-![flex-centerring](http://assets.wzbspace.top/img/flex-centerring.png)
+![flex-centerring](https://assets.wzbspace.top/img/flex-centerring.png)
 
 ## 写在最后
 
