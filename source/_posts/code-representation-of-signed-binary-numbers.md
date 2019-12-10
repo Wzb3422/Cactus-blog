@@ -8,9 +8,7 @@ tags: Basics
 
 # 法律声明
 
-**警告**：本作品遵循 **署名-非商业性使用-禁止演绎 4.0 未本地化版本（CC BY-NC-ND 4.0）** 协议发布。你应该明白与本文有关的一切行为都应该遵循此协议。
-
-> [这是什么？](https://creativecommons.org/licenses/by-nc-nd/4.0/)
+**警告**：本作品遵循 **署名-非商业性使用-禁止演绎 4.0 未本地化版本（CC BY-NC-ND 4.0）** 协议发布。你应该明白与本文有关的一切行为都应该遵循此协议。[这是什么？](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 
 # 写在前面
 
@@ -74,7 +72,7 @@ tags: Basics
 
 运算时，符号位和数值位一起参加运算。需要注意的是，**当符号位有进位产生时，应将进位加到运算结果的最低位，才能得到最终**结果。如下例：
 
-`printf("helloworld\n");`
+![carbon](http://assets.wzbspace.top/img/Ones'-complement.png)
 
 ## 补码
 
