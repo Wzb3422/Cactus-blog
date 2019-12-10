@@ -4,16 +4,16 @@
 
 # Site
 title: Wzb's Blog
-subtitle: ''
+subtitle: 'Just for fun.'
 description: ''
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Zhenbin Wu
+language: zh-cn
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://blog.wzb.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -28,7 +28,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+# skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
