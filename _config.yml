@@ -5,7 +5,7 @@
 # Site
 title: Wzb's Blog
 subtitle: 'Just for fun.'
-description: ''
+description: 'This is desc'
 keywords:
 author: Zhenbin Wu
 language: zh-cn
@@ -13,9 +13,9 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.wzb.me
+url: https://blog.wzbspace.top
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year/:month/:day/:title/index.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing index.html from permalinks
@@ -95,8 +95,8 @@ theme_config:
   colorscheme: white
   nav:
     Home: /
-    About: /about/
-    Writing: /archives/
+    About: /about/index.html
+    Writing: /archives/index.html
     Projects: http://github.com/probberechts
     # LINK_NAME: URL
   social_links:
@@ -104,11 +104,13 @@ theme_config:
   google_analytics:
     enabled: true
     id: 'UA-136390151-1'
+posts_overview:
+  show_all_posts: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: git@github.com:Wzb3422/Wzb3422.github.io.git
-  branch: master
+# deploy:
+#   type: git
+#   repo: git@github.com:Wzb3422/Wzb3422.github.io.git
+#   branch: master
   
