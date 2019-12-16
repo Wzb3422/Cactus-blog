@@ -72,7 +72,7 @@ tags: Basics
 
 运算时，符号位和数值位一起参加运算。需要注意的是，**当符号位有进位产生时，应将进位加到运算结果的最低位，才能得到最终**结果。如下例：
 
-![carbon](http://assets.wzbspace.top/img/Ones'-complement.png)
+![carbon](https://assets.wzbspace.top/img/Ones'-complement.png)
 
 ## 补码
 
