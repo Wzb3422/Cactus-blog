@@ -16,6 +16,7 @@ tags: life
   + 《深入浅出 Node.js》
   + 《CSS 世界》
   + 《ES6 标准入门》
+  + 《Professional JavaScript for Web Developers, 4th Edition》
 + 其他
   + 《亲密关系》
   + 《一九八四》
@@ -28,7 +29,8 @@ tags: life
   + 微信小程序
 + 两人画项目梳理与优化
 + Node 爬虫练手与数据分析/可视化
-+ 私人 OSS 图床
+  + 口红补货与销售量分析
++ 服务端同构渲染实践
 
 # 技术学习
 
@@ -37,17 +39,18 @@ tags: life
   + React DOM
   + Diff 算法
   + React Hooks 深入
-  + Concurrent Mode
+  + 了解 Concurrent Mode
+  + React Natvie 练手
 + 使用 Docker 进行简单项目部署
++ Travis CI 基本概念与应用
 + Webpack
   + SplitChunks
   + Multi Entries
   + etc.
-+ Java 入门
-  + SSM 入门
-+ Redis 入门
++ 每天一道算法题
 + GraphQL
 + HTML5 标准
++ 博客部署到 CDN 并且配置 CI（已经完成）
 
 # 其他计划
 
