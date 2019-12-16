@@ -5,15 +5,15 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
+    "deploy": "hexo clean && hexo generate && node ./.deploy/index.js",
     "server": "hexo server"
   },
   "hexo": {
     "version": "4.0.0"
   },
   "dependencies": {
+    "ali-oss": "^6.3.1",
     "hexo": "^4.0.0",
-    "hexo-deployer-git": "^2.1.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-index": "^1.0.0",
